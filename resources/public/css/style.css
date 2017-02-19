@@ -45,7 +45,7 @@ html, body {
 }
 
 .nav .help {
-    margin-right: 10px;
+    margin-right: 24px;
 }
 
 .nav .help a {
@@ -53,6 +53,14 @@ html, body {
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+
+.help-text {
+    margin-left: 5px;
+}
+
+.nav .help a:hover {
+    color: lightyellow;
 }
 
 .content {
