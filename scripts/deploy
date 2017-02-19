@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rsync -a --progress resources/public/ karmafish.net:public_html/klipse-layout
