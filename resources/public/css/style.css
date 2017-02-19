@@ -9,8 +9,11 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -18,10 +21,29 @@ html, body {
 .nav {
     width: 100%;
     height: 30px;
-    background-color: red;
+    background-color: #24292E;
+    display: flex;
+    align-items: center;
 }
 
-.container {
+.nav .title {
+    font-family: sans-serif;
+    color: white;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav .star {
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -48,20 +70,20 @@ html, body {
     background-repeat: no-repeat;
 }
 
-.container .klipse-item:nth-child(3), .container .klipse-item:nth-child(4) {
+.content .klipse-item:nth-child(3), .container .klipse-item:nth-child(4) {
     height: 30%;
 }
 
-.container .klipse-item:nth-child(1) textarea {
+.content .klipse-item:nth-child(1) textarea {
     background-color: mistyrose;
 }
-.container .klipse-item:nth-child(2) textarea {
+.content .klipse-item:nth-child(2) textarea {
     background-color: lavender;
 }
-.container .klipse-item:nth-child(3) textarea {
+.content .klipse-item:nth-child(3) textarea {
     background-color: azure;
 }
-.container .klipse-item:nth-child(4) textarea {
+.content .klipse-item:nth-child(4) textarea {
     background-color: ivory;
 }
 
