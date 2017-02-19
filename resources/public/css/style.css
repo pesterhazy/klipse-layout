@@ -24,23 +24,28 @@ html, body {
     background-color: #24292E;
     display: flex;
     align-items: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.nav > div {
+    display: flex;
+    align-items: center;
 }
 
 .nav .title {
-    font-family: sans-serif;
-    color: white;
     height: 100%;
     flex: 1;
-    display: flex;
-    align-items: center;
     margin-left: 5px;
 }
 
 .nav .star {
     height: 100%;
     margin-right: 5px;
-    display: flex;
-    align-items: center;
+}
+
+.nav .help {
+    margin-right: 8px;
 }
 
 .content {
