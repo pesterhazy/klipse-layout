@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia;
 }
 
 html, body {
@@ -24,7 +25,6 @@ html, body {
     background-color: #24292E;
     display: flex;
     align-items: center;
-    font-family: sans-serif;
     color: white;
 }
 
@@ -45,7 +45,14 @@ html, body {
 }
 
 .nav .help {
-    margin-right: 8px;
+    margin-right: 10px;
+}
+
+.nav .help a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .content {
