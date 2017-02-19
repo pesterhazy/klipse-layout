@@ -67,6 +67,7 @@ html, body {
     position: relative;
     width: 50%;
     height: 70%;
+    border-style: ridge;
 }
 
 .logo {
@@ -74,12 +75,8 @@ html, body {
     height: 40px;
 
     position: absolute;
-    bottom: 5px;
-    right: 5px;
-
-    background-image: url(http://app.klipse.tech/img/clojure.png);
-    background-size: 40px;
-    background-repeat: no-repeat;
+    bottom: 8px;
+    right: 8px;
 }
 
 .content .klipse-item:nth-child(3), .container .klipse-item:nth-child(4) {
@@ -87,16 +84,11 @@ html, body {
 }
 
 .content .klipse-item:nth-child(1) textarea {
-    background-color: mistyrose;
 }
-.content .klipse-item:nth-child(2) textarea {
-    background-color: lavender;
-}
-.content .klipse-item:nth-child(3) textarea {
-    background-color: azure;
-}
+.content .klipse-item:nth-child(2) textarea,
+.content .klipse-item:nth-child(3) textarea,
 .content .klipse-item:nth-child(4) textarea {
-    background-color: ivory;
+    background-color: #fafafa;
 }
 
 textarea {
