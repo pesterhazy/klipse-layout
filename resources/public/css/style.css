@@ -1,2 +1,37 @@
 /* some style */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+
+.klipse-item {
+    width: 50%;
+    height: 70%;
+}
+
+.container .klipse-item:nth-child(3), .container .klipse-item:nth-child(4) {
+    height: 30%;
+}
+
+.container .klipse-item:nth-child(1) {
+    background-color: mistyrose;
+}
+.container .klipse-item:nth-child(2) {
+    background-color: lavender;
+}
+.container .klipse-item:nth-child(3) {
+    background-color: azure;
+}
+.container .klipse-item:nth-child(4) {
+    background-color: ivory;
+}
